@@ -1,0 +1,46 @@
+salario = float(input("Digite o salário do funcionário"))
+
+
+cargo = int(input("Digite o código do cargo"))
+
+
+gerente = 101
+
+
+engenheiro = 102
+
+
+tecnico = 103
+
+
+aumento = 0
+
+
+if cargo == gerente:
+
+
+    aumento = salario + (salario*0.1)
+
+
+elif cargo == engenheiro:
+
+
+    aumento = salario + (salario*0.2)
+
+
+elif cargo == tecnico:
+
+
+    aumento = salario + (salario*0.3)
+
+
+else:
+
+
+    aumento = salario + (salario*0.4)
+
+
+
+
+
+print("salário antigo de" ,salario, "seu novo salário é",aumento, "e o aumento foi de", aumento - salario)
