@@ -1,0 +1,12 @@
+carro = float(input("Digite o valor do seu carro:")) anocomprado = int(input("Digite o ano que comprou o carro:"))
+
+
+taxa1=carro*0.01
+taxa2=carro*0.015 
+if anocomprado<= 1990:
+   print("imposto a ser pago e:",taxa1) 
+else: 
+   print("imposto a ser pago e:",taxa2)
+
+
+
