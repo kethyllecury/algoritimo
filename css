@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #007BFF;
+}
+
+header p {
+    margin: 10px 0;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    background: #007BFF;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.job, .degree {
+    margin-bottom: 10px;
+}
+
+.job h3, .degree h3 {
+    margin: 0;
+    color: #333;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills ul li {
+    background: #e7e7e7;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 4px;
+}
