@@ -1,0 +1,57 @@
+!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <header>
+            <h1>Kethylle Raiane Cury Serafim</h1>
+            <p>Email: kethyllecury@gmail.com | Telefone: (11) 98888-7979</p>
+        </header>
+        
+        <section class="profile">
+            <h2>Sobre Mim</h2>
+            <p>Uma breve descrição sobre você, suas habilidades e suas aspirações profissionais.</p>
+        </section>
+        
+        <section class="experience">
+            <h2>Experiência Profissional</h2>
+            <div class="job">
+                <h3>Nome do Cargo - Nome da Empresa</h3>
+                <p><strong>Período:</strong> Janeiro 2020 - Presente</p>
+                <p>Descrição das responsabilidades e conquistas.</p>
+            </div>
+            <div class="job">
+                <h3>Nome do Cargo - Nome da Empresa</h3>
+                <p><strong>Período:</strong> Janeiro 2018 - Dezembro 2019</p>
+                <p>Descrição das responsabilidades e conquistas.</p>
+            </div>
+        </section>
+        
+        <section class="education">
+            <h2>Formação Acadêmica</h2>
+            <div class="degree">
+                <h3>Nome do Curso - Nome da Instituição</h3>
+                <p><strong>Período:</strong> Janeiro 2014 - Dezembro 2017</p>
+            </div>
+            <div class="degree">
+                <h3>Nome do Curso - Nome da Instituição</h3>
+                <p><strong>Período:</strong> Janeiro 2012 - Dezembro 2013</p>
+            </div>
+        </section>
+        
+        <section class="skills">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Habilidade 1</li>
+                <li>Habilidade 2</li>
+                <li>Habilidade 3</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
