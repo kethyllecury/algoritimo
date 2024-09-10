@@ -1,5 +1,12 @@
-styles.css
+#Me h3 {
+    background-color: gray;
+ 
+}
 
-.Me{
-   margin: 70px;
+#Xp h3{
+    background-color: gray;
+}
+
+.alinhar{
+    text-align: center;
 }
